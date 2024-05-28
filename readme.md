@@ -1,6 +1,14 @@
 # Setup Instructions:
 
 > install project dependencies using "npm install"
+> create .env file and write these data:
+   PORT=3000
+   MONGO_URI=mongodb://127.0.0.1:27017/LoginSignup
+   JWT_SECRET=aaaaa
+   EMAIL_USER="Your_email"
+   EMAIL_PASS="YOUR_PASS"
+   BASE_URL=http://localhost:3000
+
 
 # Running the Application:
 
